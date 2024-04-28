@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="E:\Game-Platforms\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher"
+    name=":launcher"
+    type="APP"
+    maven="Gradle:launcher:"
+    gradle="7.1.2"
+    buildFolder="build"
+    bootClassPath="E:\AndroidSDK\platforms\android-33\android.jar;E:\AndroidSDK\build-tools\33.0.1\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

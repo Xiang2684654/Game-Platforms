@@ -39,7 +39,7 @@ public class KillTarget : MonoBehaviour
             {
                 // on target 
                 countDown -= Time.deltaTime; 
-                print (countDown);
+                //print (countDown);
                 hitEffect.transform.position = hit.point;
                 if (hitEffect.isStopped) 
                 {
@@ -50,9 +50,10 @@ public class KillTarget : MonoBehaviour
             {
                 // killed 
                 Instantiate(killEffect, target.transform.position, target.transform.rotation);
+                Destroy(target);
                 score += 1;
                 countDown = timeToSelect; 
-                SetRandomPosition();
+                //SetRandomPosition();
             }
         }
         else
